@@ -2,5 +2,8 @@ plotly
 streamlit==1.36.0
 pandas==1.5.3
 numpy==1.24.1
-selenium 
 cython
+setuptools
+wheel
+distutils
+selenium

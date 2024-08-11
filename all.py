@@ -5,6 +5,16 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import streamlit as st
+
+
+a = st.radio('ARE YOU READY', options=['YES', 'NO'], index=False)
+
+if a =='YES':
+    st.write('PROCESSING')
+else:
+    st.stop()
+
 
 # Set up the WebDriver (e.g., Chrome)
 driver_path = r"C:\Users\Desire Lumisa\Desktop\SELENIUM\chromedriver-win64\chromedriver.exe"  # Change this to the path where you have your WebDriver

@@ -17,7 +17,7 @@ else:
 
 
 # Set up the WebDriver (e.g., Chrome)
-driver_path = r"C:\Users\Desire Lumisa\Desktop\SELENIUM\chromedriver-win64\chromedriver.exe"  # Change this to the path where you have your WebDriver
+driver_path = r"chromedriver-win64/chromedriver.exe"  # Change this to the path where you have your WebDriver
 service = Service(driver_path)
 driver = webdriver.Chrome(service=service)
 
@@ -393,7 +393,7 @@ finally:
     # Close the browser
     driver.quit()
 
-
+st.success('HEY')
 
 
 
